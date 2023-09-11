@@ -2,8 +2,6 @@ let arr = [
   0,1,2,5,9,8,3,6,7,15
 ];
 
-function minmax(arr) {
-
     let min = arr[0];
     let max = arr[0];
   
@@ -15,10 +13,6 @@ function minmax(arr) {
         max = arr[i];
       }
     }
-  
-    return { min, max };
-}
-let result = minmax(arr);
-  
-console.log(result.min);
-console.log(result.max);
+
+console.log(min);
+console.log(max);

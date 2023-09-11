@@ -1,4 +1,4 @@
-let stringsArray = [
+let arr = [
     'Alexandre Vandewiele',
     'Antoine Lansman',
     'Bastien Venturi',
@@ -27,6 +27,6 @@ let stringsArray = [
     'Virginie Dourson',
 ];
 
-for (let elem of stringsArray){
+for (let elem of arr){
 console.log(" "+elem+" ");
 }

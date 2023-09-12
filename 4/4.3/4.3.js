@@ -1,5 +1,5 @@
 function rand10() {
-    return Math.ceil(Math.random() * 10);
+    return Math.floor(Math.random() * 10);
 }
 
 let n = prompt('How many random numbers between 1 and 10 do you want?');

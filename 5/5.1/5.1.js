@@ -2,7 +2,7 @@ function askTvSerie() {
     let tvSerie = {};
 
     tvSerie.name = prompt("Enter the name of your favorite TV series:");
-    tvSerie.productionYear = parseFloat(prompt("Enter the production year of the TV series:"));
+    tvSerie.productionYear =(prompt("Enter the production year of the TV series:"));
   
     tvSerie.castMembers = [];
     while (true) {

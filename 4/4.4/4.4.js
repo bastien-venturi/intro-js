@@ -29,8 +29,6 @@ const arrstudents = [
 
 let n = prompt('How many random learners do you want?');
 
-
-
 if ( n <= 0 || n > arrstudents.length ) {
     console.log('Invalid input. Please enter a positive number.');
 }
